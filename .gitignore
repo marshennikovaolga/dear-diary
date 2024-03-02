@@ -1,0 +1,17 @@
+
+node_modules
+
+.next/
+out/
+.vercel/
+
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+*.log
+logs
