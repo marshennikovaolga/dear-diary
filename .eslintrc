@@ -1,10 +1,13 @@
 {
-    "extends": [
-        "eslint:recommended",
-        "plugin:prettier/recommended"
-      ],
-    "rules": {
-      "no-console": "off",
-      "semi": ["error", "always"]
-    }
+  "extends": [
+    "eslint:recommended",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": [
+    "next"
+  ],
+  "rules": {
+    "no-console": "off",
+    "semi": ["error", "always"]
   }
+}
