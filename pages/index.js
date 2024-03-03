@@ -15,8 +15,12 @@ const IndexPage = () => {
         This blog will feature short notes, Spotify songs, and photos that I'll strive to post every month.
         The site is created for my personal use and for practicing Next.js and Tailwind technologies.
         If you're reading this, I'm delighted that my thoughts have captured your interest!
+        code is <Link href="https://github.com/marshennikovaolga/dear-diary">
+          <span className={tw`italic cursor-pointer`}>open source</span>
+        </Link>
       </p>
-      <ul className={tw`mt-5`}>
+      <p className={tw`mt-3 mb-2 italic`}>2024</p>
+      <ul>
         <li>
           <Link href="/march">
             march — saint petersburg / tbilisi
