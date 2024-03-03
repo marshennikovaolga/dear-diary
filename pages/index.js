@@ -5,16 +5,16 @@ import Theme from '../components/Theme'
 
 const IndexPage = () => {
   return (
-    <div  style={{ userSelect: 'none' }} className={tw`text-center flex flex-col items-center justify-center`}>
+    <div style={{ userSelect: 'none' }} className={tw`text-center flex flex-col items-center justify-center`}>
       <div className='mt-10'>
-      <Theme />
+        <Theme />
       </div>
-      <h1 className={tw`mt-10 text-s text-center`}>diary</h1>
+      <h1 className={tw`mt-10 text-s text-center`}>&#x2665; diary &#x2665;</h1>
       <p className={tw`mt-5 max-w-md px-4`}>
-        During the last two years, I've traveled extensively and decided to create this website.
-        This blog will contain short notes and photos that I'll try to post every month.
-        This site is created for myself and for practice in Next.js and Tailwind technologies.
-        If you're reading this, I'm delighted that my travels have captured your interest!
+        Over the past two years, I've been traveling extensively and have decided to share various content on this website.
+        This blog will feature short notes, Spotify songs, and photos that I'll strive to post every month.
+        The site is created for my personal use and for practicing Next.js and Tailwind technologies.
+        If you're reading this, I'm delighted that my thoughts have captured your interest!
       </p>
       <ul className={tw`mt-5`}>
         <li>
